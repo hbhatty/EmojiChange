@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.emoji {
+    font-size: 10rem;
+    cursor: pointer; /* basically changes mouse point to clicking one */
+    user-select: none;/*removes blue click thing when u click it*/
+}
+
+.freez{
+    display:none;
+}
+
+.hot{
+    display:none;
+}
+
+.active{
+    display:block;
+}
